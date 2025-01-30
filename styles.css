@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@keyframes movimiento_slider {
+    0%{ transform: translateX(0%);}
+    10%{ transform: translateX(0%);}
+
+    15%{ transform: translateX(-25%);}
+    25%{ transform: translateX(-25%);}
+
+    30%{ transform: translateX(-50%);}
+    40%{ transform: translateX(-50%);}
+
+    45%{ transform: translateX(-75%);}
+    55%{ transform: translateX(-75%);}
+
+    60%{ transform: translateX(-100%);}
+    70%{ transform: translateX(-100%);}
+
+    75%{ transform: translateX(-125%);}
+    85%{ transform: translateX(-125%);}
+
+    90%{ transform: translateX(-150%);}
+    100%{ transform: translateX(-150%);}
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +33,11 @@
 body{
     background-color: #F4F6FA;
     padding-bottom: 30px;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -22,7 +50,7 @@ body{
     width: 100vw;
 }
 
-.nav-bar ul{
+.nav-bar ul.menu{
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -30,48 +58,85 @@ body{
     align-items: center;
 }
 
-.nav-bar ul li{
+.nav-bar ul.menu li{
     color: #000000;
     font-weight: 400;
     font-size: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all ease .55s;
 }
 
-.nav-bar ul li img{
+.nav-bar ul.menu li img{
     width: 90px;
     height: 90px;
     border-radius: 50%;
     margin: 0 10px;
 }
 
-.nav-bar ul li a:hover,
-.nav-bar ul li.language-changer:hover{
-    font-weight: 500;
+.nav-bar ul.menu li:hover{
+    transform: scale(1.1);
 }
 
-.nav-bar ul li a{
+.nav-bar ul.menu li a{
     text-decoration: none;
     color: #000000;
 }
 
-.nav-bar ul li i{
+.nav-bar ul.menu li i{
     font-size: 26px;
 }
 
-.nav-bar ul li i.bxs-moon,
-.nav-bar ul li i.bxs-sun{
+.nav-bar ul.menu li i.bxs-moon,
+.nav-bar ul.menu li i.bxs-sun{
     margin-left: 20px;
 }
 
-.nav-bar ul li i.bx-search-alt{
+.nav-bar ul.menu li i.bx-search-alt{
     margin-right: 20px;
 }
 
-.nav-bar ul li i,
-.nav-bar ul li.language-changer{
+.nav-bar ul.menu li i,
+.nav-bar ul.menu li.language-changer{
     cursor: pointer;
+}
+
+.nav-bar i.bx{
+    display: block;
+    cursor: pointer;
+    font-size: 30px;
+    width: auto;
+    height: auto;
+}
+
+.nav-bar i.bx-menu,
+.nav-bar i.bx-x{
+    display: none;
+}
+
+.nav-bar ul.responsive-menu{
+    display: none;
+    list-style: none;
+    width: 100%;
+    display: none;
+    position: absolute;
+    margin-top: 40px;
+    z-index: 999;
+}
+
+.nav-bar ul.responsive-menu li{
+    padding: 15px 20px;
+    background-color: #F4F6FA;
+    transition: all ease .55s;
+}
+
+.nav-bar ul.responsive-menu li:hover{
+    background-color: #E8E8E8;
+}
+
+.nav-bar ul.responsive-menu li a{
+    color: #000000;
 }
 
 .bannerprincipaldiv{
@@ -80,9 +145,9 @@ body{
 
 .bannerprincipaldiv h1{
     position: absolute;
-    left: 350px;
+    left: 20%;
     font-size: 3em;
-    top: 280px;
+    top: 25%;
 }
 
 img.bannerinicial{
@@ -148,8 +213,9 @@ img.bannerinicial{
 
 .talleres{
     display: flex;
-    padding: 120px 150px 135px 150px;
+    padding: 120px 80px 135px 80px;
     gap: 35px;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -157,8 +223,10 @@ img.bannerinicial{
     display: flex;
     flex-direction: column;
     padding: 45px 25px 0 25px;
-    width: 20%;
     border-radius: 20px;
+    width: 311.59px;
+    max-height: 455px;
+    min-height: 385px;
 }
 
 .taller p.nom-taller{
@@ -219,6 +287,26 @@ img.bannerinicial{
 
 .taller4{
     background-color: #D9B25F;
+}
+
+
+/* Slider */
+
+.slider{
+    width: 640px;
+    height: 200px;
+    margin: 0 30px 300px 30px;
+}
+
+.slider ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    animation: movimiento_slider 12s infinite alternate ease-in-out;
+}
+
+.slider ul li img{
+    width: 700px;
 }
 
 
@@ -404,6 +492,19 @@ body.darkmode{
     color: #fafafa;
 }
 
+.darkmode .nav-bar ul.responsive-menu li{
+    background-color: #121212;
+}
+
+.darkmode .nav-bar ul.responsive-menu li:hover{
+    background-color: #2c2c2c;
+}
+
+.darkmode .nav-bar i.bx-menu,
+.darkmode .nav-bar i.bx-x{
+    color: #fafafa;
+}
+
 .darkmode .quisom .texto p.intro{
     background-color: #2c2c2c;
     color: #fafafa;
@@ -469,4 +570,342 @@ body.darkmode{
 
 .darkmode footer .rrss ul li a:hover{
     color: #afafaf;
+}
+
+
+/* responsive */
+
+@media(max-width: 1600px){
+    /* footer */
+
+    footer{
+        padding: 100px 90px 0 0;
+    }
+}
+
+@media(max-width: 1400px){
+    .bannerprincipaldiv h1{
+        font-size: 2em;
+    }
+
+    .quisom{
+        padding: 0 100px;
+        gap: 40px;
+    }
+
+    .quisom img.chavalin{
+        width: 500px;
+        height: 500px;
+    }
+
+    .quisom .texto p.intro{
+        font-size: 17px;
+        padding: 10px 20px;
+    }
+
+    .quisom .texto h1{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .quisom .texto button.about{
+        padding: 7px 33px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+@media(max-width: 1250px){
+    .quisom img.chavalin{
+        width: 400px;
+        height: 400px;
+    }
+
+    .quisom .texto p.intro{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .quisom .texto h1{
+        margin-top: 10px;
+        font-size: 33px;
+    }
+
+    .quisom .texto button.about{
+        padding: 7px 33px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    
+    /* formulari footer */
+
+    .form-footer img{
+        display: none;
+    }
+}
+
+@media(max-width: 1100px){
+    .quisom{
+        padding: 0 70px;
+        gap: 30px;
+    }
+}
+
+@media(max-width: 900px){
+    .nav-bar ul li img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .nav-bar ul.menu li{
+        font-size: 18px;
+    }
+
+    .nav-bar ul.menu li i{
+        font-size: 22px;
+    }
+
+    .nav-bar ul.menu li i.bxs-moon,
+    .nav-bar ul.menu li i.bxs-sun{
+        margin-left: 10px;
+    }
+
+    .nav-bar ul.menu li i.bx-search-a.menult{
+        margin-right: 10px;
+    }
+
+    .bannerprincipaldiv h1{
+        left: 15%;
+        top: 20%;
+    }
+
+    .quisom{
+        flex-direction: column;
+    }
+
+    .quisom img.chavalin{
+        display: none;
+    }
+
+    .quisom .texto p.intro{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .quisom .texto h1{
+        margin-top: 10px;
+        font-size: 33px;
+    }
+
+    .quisom .texto button.about{
+        padding: 7px 33px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+}
+
+@media(max-width: 800px){
+    .nav-bar ul.menu{
+        display: none;
+    }
+
+    .nav-bar i.bx-menu,
+    .nav-bar i.bx-x{
+        display: block;
+    }
+
+    .bannerprincipaldiv{
+        margin-top: 0;
+    }
+
+    .bannerprincipaldiv h1{
+        left: 10%;
+        top: 15%;
+        background-color: #f4f6fa;
+    }
+
+    .darkmode .bannerprincipaldiv h1{
+        background-color: #121212;
+    }
+
+
+    /* formulari footer */
+    
+    .form-footer .footer-form{
+        padding: 30px;
+        justify-content: center;
+    }
+    
+    .form-footer .footer-form h2.t1{
+        font-size: 30px;
+    }
+    
+    .form-footer .footer-form h2.t2{
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    
+    .form-footer .footer-form form{
+        margin-right: 0;
+    }
+    
+    .form-footer .footer-form form label input,
+    .form-footer .footer-form form label textarea{
+        font-size: 16px;
+        padding: 15px 18px;
+    }
+    
+    .form-footer .footer-form form label input.name{
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .form-footer .footer-form form label input.surname{
+        width: 100%;
+    }
+    
+    .form-footer .footer-form form button{
+        font-size: 18px;
+        padding: 15px 0;
+    }
+
+
+    /* footer */
+
+    footer{
+        padding: 60px 30px 0 30px;
+    }
+
+    footer .datos{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer .datos .section{
+        width: 100%;
+    }
+
+    footer .datos .section1 .head img{
+        display: none;
+    }
+
+    footer .datos .section1 .head h2{
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    footer .datos .section1 .head p{
+        font-size: 16px;
+    }
+
+    footer .datos h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    footer .rrss{
+        margin-top: 50px;
+    }
+
+    footer .rrss ul li a i{
+        font-size: 36px;
+    }
+
+    footer p.copyright{
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 500px){
+    .bannerprincipaldiv{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .quisom{
+        padding: 0 30px;
+        gap: 30px;
+    }
+
+    .quisom .texto p.intro{
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+
+    .quisom .texto h1{
+        margin-top: 10px;
+        font-size: 26px;
+    }
+
+    .quisom .texto p.descripcion{
+        font-size: 13px;
+        margin: 15px 0 20px 0;
+    }
+
+    .quisom .texto button.about{
+        padding: 7px 28px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .talleres{
+        padding: 50px 30px 90px 30px;
+    }
+
+    .slider{
+        display: none;
+    }
+
+
+    /* form footer */
+
+    .form-footer{
+        margin-top: 20px;
+        overflow-x: hidden;
+    }
+
+    .form-footer .footer-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+        border-radius: 0;
+    }
+    
+    .form-footer .footer-form h2.t1{
+        font-size: 32px;
+    }
+    
+    .form-footer .footer-form h2.t2{
+        font-size: 28px;
+        color: #3D95A6;
+        margin-bottom: 24px;
+    }
+    
+    .form-footer .footer-form form{
+        margin-right: 0;
+    }
+    
+    .form-footer .footer-form form label input,
+    .form-footer .footer-form form label textarea{
+        font-size: 16px;
+        padding: 15px 18px;
+    }
+    
+    .form-footer .footer-form form label input.name{
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .form-footer .footer-form form label input.surname{
+        width: 100%;
+    }
+    
+    .form-footer .footer-form form button{
+        font-size: 18px;
+        padding: 15px 0;
+    }
 }

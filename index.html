@@ -8,20 +8,30 @@
         <link rel="stylesheet" href="styles.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
-    <body class="" id="body">
+    <body id="body">
 
         <div class="container">
 
             <div class="nav-bar">
-                <ul>
+                <ul class="menu">
                     <li><i class='bx bx-search-alt'></i></li>
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="#">Qui som</a></li>
-                    <li><img src="./images/logo.png" alt="un arbol muy colorido que pone Funtasies"></li>
-                    <li><a href="#">Serveis</a></li>
-                    <li><a href="#">Contacte</a></li>
-                    <li class="language-changer" id="languageToggler">ES</li>
+                    <li><img src="./images/logo.png" alt="un arbol muy colorido que pone Funtasies" id="logoBanner"></li>
+                    <li><a href="./serveis.html">Serveis</a></li>
+                    <li><a href="./contacte.html">Contacte</a></li>
+                    <li class="language-changer" id="languageToggler"><a href="english.html">CAT</a></li>
                     <li><i class='bx bxs-moon' id="bdark"></i></li>
+                </ul>
+                <i class='bx bx-menu' id="menuToggler"></i>
+                <ul class="responsive-menu" id="responsive-menu">
+                    <li><i class='bx bx-search-alt'></i></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Qui som</a></li>
+                    <li><a href="./serveis.html">Serveis</a></li>
+                    <li><a href="./contacte.html">Contacte</a></li>
+                    <li class="language-changer" id="languageToggler"><a href="#">CAT</a></li>
+                    <li><i class='bx bxs-moon' id="bdark2"></i></li>
                 </ul>
             </div>
 
@@ -34,8 +44,8 @@
             <div class="quisom">
                 <div class="texto">
                     <p class="intro">Qui som?</p>
-                    <h1>A Funtasies revolucionem <br>l'aprenentatge i contruim <br>un futur</h1>
-                    <p class="descripcion">Oferim tallers pensats tant per a escoles com per a famílies, <br>que es poden realitzar al nostre centre amb reserva <br>anticipada. A Funtasies, cada activitat està dissenyada per <br>fomentar l'aprenentatge significatiu i la creativitat, sempre amb <br>un ambient acollidor i proper.</p>
+                    <h1>A Funtasies revolucionem l'aprenentatge i contruim un futur</h1>
+                    <p class="descripcion">Oferim tallers pensats tant per a escoles com per a famílies, que es poden realitzar al nostre centre amb reserva anticipada. A Funtasies, cada activitat està dissenyada per fomentar l'aprenentatge significatiu i la creativitat, sempre amb un ambient acollidor i proper.</p>
                     <button class="about" id="aboutUs">Sobre nosaltres</button>
                 </div>
                 <img src="./images/niñopanchito.jpg" alt="un niño pequeño" class="chavalin">
@@ -48,7 +58,7 @@
                     <p class="nom-taller">Taller científic</p>
                     <h3 class="titol-taller">Activitats per experimentar textures, densitats, líquids</h3>
                     <img src="./images/books.png" alt="dos libros de color azul" class="imatge-taller">
-                    <i class='bx bx-right-arrow-alt'></i>
+                    <i class='bx bx-right-arrow-alt' id="taller-cientific"></i>
                 </div>
                 <div class="taller taller2">
                     <p class="nom-taller">Taller de la tardor</p>
@@ -58,7 +68,7 @@
                 </div>
                 <div class="taller taller3">
                     <p class="nom-taller">Taller de les emocions</p>
-                    <h3 class="titol-taller">Activitats per aprendre a gestionari entendre lesemocions</h3>
+                    <h3 class="titol-taller">Activitats per aprendre a gestionar i entendre les emocions</h3>
                     <img src="./images/heart.png" alt="dos libros de color azul" class="imatge-taller">
                     <i class='bx bx-right-arrow-alt'></i>
                 </div>
@@ -68,6 +78,17 @@
                     <img src="./images/cup.png" alt="dos libros de color azul" class="imatge-taller">
                     <i class='bx bx-right-arrow-alt'></i>
                 </div>
+            </div>
+
+            <!-- carrusel -->
+
+            <div class="slider">
+                <ul>
+                    <li><img src="./images/imagen1.jpg" alt="imagen de prueba"></li>
+                    <li><img src="./images/imagen2.jpg" alt="imagen de prueba"></li>
+                    <li><img src="./images/imagen3.jpg" alt="imagen de prueba"></li>
+                    <li><img src="./images/imagen4.jpg" alt="imagen de prueba"></li>
+                </ul>
             </div>
 
             <!-- Formulari footer -->
@@ -80,7 +101,7 @@
                         <form action="https://formspree.io/f/xgvovvnb" method="POST">
                             <label>
                                 <input type="text" class="name" placeholder="Nom" name="Nom" required>
-                                <input type="text" placeholder="Cognom" name="Cognom" required>
+                                <input type="text" class="surname" placeholder="Cognom" name="Cognom" required>
                             </label>
                             <label>
                                 <input class="email" type="email" name="Correu" placeholder="Correu electrònic" required>
@@ -99,14 +120,14 @@
             <footer>
 
                 <div class="datos">
-                    <div class="section1">
+                    <div class="section1 section">
                         <div class="head">
                             <img src="./images/logo.png" alt="un arbol muy colorido">
                             <h2>Funtasies</h2>
                         </div>
                         <p>Som una cooperativa dedicada a oferir tallers creatius i dinàmics per a infants i famílies. Descobreix un espai on l'aprenentatge es transforma en una aventura plena de somriures, fantasia i moments inoblidables. Junts, fem que educar sigui màgic!</p>
                     </div>
-                    <div class="section2">
+                    <div class="section2 section">
                         <h3>Direcció</h3>
                         <ul>
                             <li>Carrer de Caldes, 11</li>
@@ -114,7 +135,7 @@
                             <li>Espanya</li>
                         </ul>
                     </div>
-                    <div class="section3">
+                    <div class="section3 section">
                         <h3>Contacte</h3>
                         <ul>
                             <li><i class='bx bx-envelope'></i><a href="mailto:contacte@funtasies.com" target="_blank">contacte@funtasies.com</a></li>

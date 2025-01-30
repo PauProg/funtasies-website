@@ -1,11 +1,9 @@
 const bdark = document.getElementById('bdark');
 const bdark2 = document.getElementById('bdark2');
 const body = document.getElementById('body');
-const aboutBtn = document.getElementById('aboutUs');
 const logoBanner = document.getElementById('logoBanner');
 const menuToggler = document.getElementById('menuToggler');
 const responsiveMenu = document.getElementById('responsive-menu');
-const tallerCientific = document.getElementById('taller-cientific');
 
 logoBanner.addEventListener('click', function(){
     window.location.href = "/index.html";
@@ -37,11 +35,6 @@ window.addEventListener("resize", () => {
     }
 });
 
-
-aboutBtn.addEventListener('click', function(){
-    window.location.href = "/#";
-});
-
 menuToggler.addEventListener('click', function(){
     if(menuToggler.classList.contains('bx-menu')){
         menuToggler.classList.remove('bx-menu');
@@ -52,8 +45,4 @@ menuToggler.addEventListener('click', function(){
         menuToggler.classList.add('bx-menu');
         responsiveMenu.style.display = 'none';
     }
-});
-
-tallerCientific.addEventListener('click', function(){
-    window.location.href = "/taller1.html";
 });
