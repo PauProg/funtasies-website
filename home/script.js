@@ -14,10 +14,10 @@ const resultados = document.getElementById('resultados');
 
 //Distintos talleres, enlaces, y palabras relacionadas
 const talleres = [
-    { nombre: "Taller científic", url: "/taller1.html", palabras: ["ciencia", "pluja de colors", "fluid no newtonià", "volcà", "sal de colors", "pluja de colors amb oli", "expansió de colors", "cientific"] },
-    { nombre: "Taller de Pintura", url: "/taller-pintura.html", palabras: ["arte", "acuarela", "óleo", "colores"] },
-    { nombre: "Taller de Cocina", url: "/taller-cocina.html", palabras: ["recetas", "gastronomía", "chef", "comida"] },
-    { nombre: "Taller de Astronomía", url: "/taller-astronomia.html", palabras: ["estrellas", "planetas", "universo", "telescopio"] }
+    { nombre: "Taller científic", url: "/serveis/taller1/taller1.html", palabras: ["ciencia", "pluja de colors", "fluid no newtonià", "volcà", "sal de colors", "pluja de colors amb oli", "expansió de colors", "cientific"] },
+    { nombre: "Taller de Pintura", url: "#", palabras: ["arte", "acuarela", "óleo", "colores"] },
+    { nombre: "Taller de Cocina", url: "#", palabras: ["recetas", "gastronomía", "chef", "comida"] },
+    { nombre: "Taller de Astronomía", url: "#", palabras: ["estrellas", "planetas", "universo", "telescopio"] }
 ];
 
 // Función para aplicar el tema guardado o predeterminado
@@ -87,7 +87,7 @@ menuToggler.addEventListener('click', function () {
 
 //Botón al taller cientifico (home)
 tallerCientific.addEventListener('click', function () {
-    window.location.href = "/taller1.html";
+    window.location.href = "/serveis/taller1/taller1.html";
 });
 
 // Mostrar buscador
