@@ -16,6 +16,79 @@ a{
     text-decoration: none;
 }
 
+.buscador{
+    display: none;
+    z-index: 999;
+    position: absolute;
+}
+
+.buscador i.bx-x{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all ease .55s;
+}
+
+.buscador i.bx-x:hover{
+    transform: scale(1.2);
+}
+
+.buscador .buscador-real{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -20px;
+    flex-direction: column;
+}
+
+.buscador .buscador-real label{
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.buscador .buscador-real i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.buscador .buscador-real label input{
+    border: none;
+    font-size: 16px;
+}
+
+.buscador .buscador-real label input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.buscador .buscador-real ul#resultados{
+    width: 15%;
+    list-style: none;
+}
+
+.buscador .buscador-real ul#resultados li{
+    padding: 10px 20px;
+    background-color: #fafafa;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all ease .55s;
+}
+
+.buscador .buscador-real ul#resultados li:hover{
+    background-color: #d8d8d8;
+}
+
+
 /* navbar */
 
 .nav-bar{
@@ -120,7 +193,7 @@ a{
     width: 100%;
     max-width: 1250px;
     padding: 24px;
-    margin: 0 auto;
+    margin: 50px auto;
     gap: 50px;
 }
 /*Elemento animado*/
@@ -140,7 +213,8 @@ a{
 }
 
 #animado h4{
-    color: #8dc6d4
+    color: #8dc6d4;
+    font-size: 18px;
 }
 
 /*Layout flex*/
@@ -382,7 +456,7 @@ body.darkmode{
 }
 
 .darkmode .form-footer .footer-form h2.t1{
-    color: #afafaf;
+    color: #fafafa;
 } 
 
 .darkmode .form-footer .footer-form h2.t2{
