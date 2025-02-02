@@ -6,7 +6,7 @@ const logoBanner = document.getElementById('logoBanner');
 const menuToggler = document.getElementById('menuToggler');
 const responsiveMenu = document.getElementById('responsive-menu');
 const tallerCientific = document.getElementById('taller-cientific');
-const tallerTardor = document.getElementById('taller-tardor');
+const tallerEmocions = document.getElementById('taller-emocions');
 const lupita = document.getElementById('lupita');
 const buscador = document.getElementById('buscador');
 const closeBuscador = document.getElementById('close-buscador');
@@ -16,9 +16,9 @@ const resultados = document.getElementById('resultados');
 //Distintos talleres, enlaces, y palabras relacionadas
 const talleres = [
     { nombre: "Taller científic", url: "/serveis/taller1/taller1.html", palabras: ["ciencia", "pluja de colors", "fluid no newtonià", "volcà", "sal de colors", "pluja de colors amb oli", "expansió de colors", "cientific"] },
-    { nombre: "Taller de Pintura", url: "#", palabras: ["arte", "acuarela", "óleo", "colores"] },
-    { nombre: "Taller de Cocina", url: "#", palabras: ["recetas", "gastronomía", "chef", "comida"] },
-    { nombre: "Taller de Astronomía", url: "#", palabras: ["estrellas", "planetas", "universo", "telescopio"] }
+    { nombre: "Taller de la tardor", url: "#", palabras: [] },
+    { nombre: "Taller de les emocions", url: "/serveis/taller2/taller2.html", palabras: ["taller de les emocions", "lectura", "conte", "por", "expressar", "comoditat", "monstre"] },
+    { nombre: "Taller de Astronomía", url: "#", palabras: [] }
 ];
 
 // Función para aplicar el tema guardado o predeterminado
@@ -92,7 +92,7 @@ tallerCientific.addEventListener('click', function () {
 });
 
 //Botón al taller cientifico (home)
-tallerTardor.addEventListener('click', function () {
+tallerEmocions.addEventListener('click', function () {
     window.location.href = "/serveis/taller2/taller2.html";
 });
 
