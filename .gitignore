@@ -1,0 +1,9 @@
+# Archivos del sistema (macOS y Windows)
+.DS_Store
+Thumbs.db
+
+# Archivos de caché o logs
+*.log
+
+# Archivos de entorno (por si en el futuro agregas alguna variable sensible)
+.env
