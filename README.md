@@ -24,10 +24,6 @@ El proyecto está organizado de la siguiente manera:
 
 funtasies-website/ ├── index.html ├── contacte/ ├── home/ │ ├── serveis/ ├── images/
 
-markdown
-Copiar
-Editar
-
 - `index.html`: Página principal del sitio web.
 - `contacte/`: Contiene la página de contacto.
 - `home/`: Contiene la página de inicio.
