@@ -39,7 +39,7 @@ funtasies-website/ ├── index.html ├── contacte/ ├── home/ │ 
 2. **Navegar al directorio del proyecto**:
 
    ```bash
-   git clone https://github.com/PauProg/funtasies-website.git
+   cd funtasies-website
 3. **Abrir index.html en tu navegador preferido para visualizar el sitio web**.
 
 ## Contribuciones
