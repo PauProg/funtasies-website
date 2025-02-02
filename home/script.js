@@ -6,6 +6,7 @@ const logoBanner = document.getElementById('logoBanner');
 const menuToggler = document.getElementById('menuToggler');
 const responsiveMenu = document.getElementById('responsive-menu');
 const tallerCientific = document.getElementById('taller-cientific');
+const tallerTardor = document.getElementById('taller-tardor');
 const lupita = document.getElementById('lupita');
 const buscador = document.getElementById('buscador');
 const closeBuscador = document.getElementById('close-buscador');
@@ -88,6 +89,11 @@ menuToggler.addEventListener('click', function () {
 //Botón al taller cientifico (home)
 tallerCientific.addEventListener('click', function () {
     window.location.href = "/serveis/taller1/taller1.html";
+});
+
+//Botón al taller cientifico (home)
+tallerTardor.addEventListener('click', function () {
+    window.location.href = "/serveis/taller2/taller2.html";
 });
 
 // Mostrar buscador
