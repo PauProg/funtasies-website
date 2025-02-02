@@ -207,7 +207,9 @@ a{
     max-width: 1200px;
 }
 
+
 /* Seccion Grid */
+
 .gallery-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -222,12 +224,15 @@ a{
     min-height: 300px;
     border-radius: 10px;
 }
+
+
 /*Primera sesion*/
+
 .gallery-items.pre-seccion{
     background-color: #b3c1dd;
     display: flex;
+    color: #FAFAFA;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     grid-column: 1 / 2;
 }
@@ -238,10 +243,13 @@ a{
     font-size: 35px;
 }
 
+
 /* Primer elemento*/
+
 .gallery-items.primera-seccion{
     background-color: #d9b25f;
     display: flex;
+    flex-direction: row-reverse;
     gap: 20px;
     align-items: center;
     grid-column: 2 / 3;
@@ -266,12 +274,15 @@ a{
     width: 200px;
 }
 
+
 /* Segundo elemento */
+
 .gallery-items.segunda-seccion{
     grid-column: 1 / 2;
     background-color: #f38971;
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
     width: 100%;
 }
 .content2{
@@ -290,10 +301,13 @@ a{
     height: 200px;
 }
 
+
 /* Tercer elemento */
+
 .gallery-items.tercera-seccion{
     background-color: #5fb1c2;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     gap: 30px;
 }
@@ -310,12 +324,14 @@ a{
     height: auto;
 }
 
+
 /*Preseccion 2*/
+
 .gallery-items.pre-seccion2{
     background-color: #b3c1dd;
     grid-column: 1 / 3;
+    color: #FAFAFA;
     display: flex;
-    text-align: center;
     flex-direction: column;
     margin-top: 50px;
     width: 100%;
@@ -323,7 +339,6 @@ a{
 
 .gallery-items.pre-seccion2 h3{
     margin-top: 20px;
-    text-align: center;
 }
 
 .gallery-items.pre-seccion2 h4{
@@ -332,13 +347,16 @@ a{
     font-size: 35px;
 }
 
+
 /* Quarto elemento */
+
 .gallery-items.cuarta-seccion{
     background-color: #48b988;
     grid-column: 1 / 2;
     display: flex;
     align-items: center;
     width: 100%;
+    flex-direction: row-reverse;
     gap: 10px;
 }
 
@@ -354,7 +372,9 @@ a{
     height: auto;
 }
 
+
 /* Qinto elemento */
+
 .gallery-items.quinta-seccion{
     background-color: #f38971;
     display: flex;
@@ -364,6 +384,7 @@ a{
 .content5{
     color: #FAFAFA;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -378,6 +399,7 @@ a{
     height: 300px;
 
 }
+
 
 /* footer form */
 
