@@ -1,21 +1,16 @@
 # Funtasies Website
 
-markdown
-Copiar
-Editar
-# Funtasies Website
-
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Ffuntasies-website.vercel.app)](https://funtasies-website.vercel.app)
 
 ## Descripción
 
-Funtasies Website es un proyecto escolar desarrollado en colaboración con [Jitaprog](https://github.com/Jitaprog). El objetivo de este proyecto es [describir el propósito del proyecto, por ejemplo: "crear una plataforma web interactiva para..."].
+**Funtasies Website** es un proyecto escolar desarrollado en colaboración con [Jitaprog](https://github.com/Jitaprog). El objetivo de este proyecto es crear una asociación ficticia que ofrece talleres a escuelas, compuestos por diversas actividades diseñadas para desarrollar la mente de los más pequeños.
 
 ## Características
 
-- [Característica 1: Descripción breve]
-- [Característica 2: Descripción breve]
-- [Característica 3: Descripción breve]
+- 🌙 **Modo claro y oscuro**: Permite cambiar entre los dos temas según la preferencia del usuario.
+- 🔍 **Buscador**: Facilita la navegación dentro del sitio mediante una barra de búsqueda.
+- 📱 **Diseño responsive**: Adaptado para ser visualizado correctamente en distintos dispositivos.
 
 ## Tecnologías Utilizadas
 
@@ -27,7 +22,7 @@ Funtasies Website es un proyecto escolar desarrollado en colaboración con [Jita
 
 El proyecto está organizado de la siguiente manera:
 
-funtasies-website/ ├── index.html ├── contacte/ │ └── index.html ├── home/ │ └── index.html ├── serveis/ │ └── index.html └── images/ └── [archivos de imágenes]
+funtasies-website/ ├── index.html ├── contacte/ ├── home/ │ ├── serveis/ ├── images/
 
 markdown
 Copiar
@@ -45,31 +40,36 @@ Editar
 
    ```bash
    git clone https://github.com/PauProg/funtasies-website.git
-Navegar al directorio del proyecto:
+2. **Navegar al directorio del proyecto**:
 
-bash
-Copiar
-Editar
-cd funtasies-website
-Abrir index.html en tu navegador preferido para visualizar el sitio web.
+   ```bash
+   git clone https://github.com/PauProg/funtasies-website.git
+3. **Abrir index.html en tu navegador preferido para visualizar el sitio web**.
 
-Contribuciones
-Las contribuciones son bienvenidas. Si deseas contribuir:
+## Contribuciones
 
-Haz un fork del proyecto.
-Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
-Realiza tus cambios y haz commit (git commit -m 'Añadir nueva funcionalidad').
-Sube tus cambios (git push origin feature/nueva-funcionalidad).
-Abre una Pull Request.
-Licencia
+¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, sigue estos pasos:
+
+1. **Haz un fork del repositorio haciendo clic en el botón Fork en la parte superior derecha de la página del repositorio**.
+2. **Clona tu fork en tu máquina local**:
+
+   ```bash
+   git clone https://github.com/tu-usuario/funtasies-website.git
+3. **Crea una nueva rama para tu cambio**:
+
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+4. **Realiza tus modificaciones y súbelas a tu repositorio**:
+
+   ```bash
+   git commit -m "Descripción breve del cambio"
+   git push origin feature/nueva-funcionalidad
+5.  **Abre una Pull Request en el repositorio original y describe los cambios que realizaste**.
+
+## Licencia
+
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
 
-Contacto
-Para preguntas o sugerencias, puedes contactarnos a través de [tu correo electrónico] o creando un issue en el repositorio.
+## Contacto
 
-perl
-Copiar
-Editar
-
-Asegúrate de personalizar las secciones entre corchetes `[]` con información específica de tu proyecto. Por ejemplo, describe las características específicas de tu sitio web, proporciona detalles sobre cómo instalar y usar el proyecto, y añade cualquier otra información relevante que consideres importante para los usuarios o colaboradores potenciales.
-::contentReference[oaicite:0]{index=0}
+Si tienes dudas o sugerencias, puedes contactarnos a través de [paumedvazquez@gmail.com](mailto:paumedvazquez@gmail.com) o abriendo un issue en el repositorio.
