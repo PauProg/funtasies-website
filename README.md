@@ -68,7 +68,7 @@ Editar
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
+Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
 
 ## Contacto
 
