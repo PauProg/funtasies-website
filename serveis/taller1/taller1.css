@@ -8,12 +8,10 @@
 }
 
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #F4F6FA;
     padding-bottom: 30px;
+    overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a{
@@ -362,7 +360,7 @@ a{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 100vw;
+    width: 100%;
     padding: 24px;
     margin-top: 50px;
 }
@@ -370,8 +368,6 @@ a{
 .display-finalitat{
     display: flex;
     gap: 20px;
-    height: auto;
-    max-width: 1200px;
 }
 
 .first{
@@ -387,7 +383,6 @@ a{
     background-color: #48b988;
     border-radius: 10px;
     padding: 30px;
-    max-width: 1200px;
     color: #FAFAFA;
 }
 
@@ -429,18 +424,13 @@ a{
     border-radius: 10px;
 }
 
-.study-image{
-    margin-left: 50px;
-    width: 200px;
-}
-
 /* footer form */
 
 .form-footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .form-footer .footer-form{
@@ -718,9 +708,7 @@ body.darkmode{
         display: none;
     }
 }
-
-@media (max-width:920px){
-
+@media (max-width:1100px){
     /*Media de Grid*/
     .gallery-container{
         display: flex;
@@ -729,7 +717,9 @@ body.darkmode{
         align-items: center;
         padding: 24px;
     }
-
+    .gallery-items{
+        width: 100%;
+    }
     .gallery-items.segunda-seccion{
         flex-direction: column;
         align-items: center;
@@ -754,7 +744,7 @@ body.darkmode{
     .gallery-items.sexta-seccion{
         flex-direction: column;
         align-items: center;
-        margin: 0;;
+        margin: 0;
         height: auto;
     }
     .content6{
@@ -766,28 +756,19 @@ body.darkmode{
         width: 400px;
     }
 
+    
+}
+@media (max-width:920px){
     /*Media de finalitat*/
-    .finalitat{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        width: 100%;
-        max-width: 1200px;
-        padding: 24px;
-    }
     .display-finalitat{
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: px;
         width: 100%;
-        height: 440px;
-        max-width: 1200px;
     }
 
     .study-image{
-        width: 0px;
-        margin: -20px;
+        display: none;
     }
 }
 
@@ -915,10 +896,15 @@ body.darkmode{
 }
 
 @media(max-width: 500px){
-    /* form footer */
+    /* Image section 6 */
+    .expansio{
+        width: 300px;
+        transform: translatex(5px);
+    }
 
+    /* form footer */
     .form-footer{
-        margin-top: 20px;
+        margin-top: 50px;
         overflow-x: hidden;
     }
 
