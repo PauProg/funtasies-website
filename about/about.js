@@ -1,17 +1,15 @@
 const bdark = document.getElementById('bdark');
 const bdark2 = document.getElementById('bdark2');
 const body = document.getElementById('body');
-const aboutBtn = document.getElementById('aboutUs');
 const logoBanner = document.getElementById('logoBanner');
 const menuToggler = document.getElementById('menuToggler');
 const responsiveMenu = document.getElementById('responsive-menu');
-const tallerCientific = document.getElementById('taller-cientific');
-const tallerEmocions = document.getElementById('taller-emocions');
 const lupita = document.getElementById('lupita');
 const buscador = document.getElementById('buscador');
 const closeBuscador = document.getElementById('close-buscador');
 const inputBuscador = buscador.querySelector('input');
 const resultados = document.getElementById('resultados');
+const activitatsBtn = document.getElementById('activitats');
 
 //Distintos talleres, enlaces, y palabras relacionadas
 const talleres = [
@@ -68,11 +66,6 @@ window.addEventListener("resize", () => {
     }
 });
 
-//Botón de about us (home)
-aboutBtn.addEventListener('click', function () {
-    window.location.href = "/about/about.html";
-});
-
 //Abrir y cerrar menú responsive
 menuToggler.addEventListener('click', function () {
     if (menuToggler.classList.contains('bx-menu')) {
@@ -84,16 +77,6 @@ menuToggler.addEventListener('click', function () {
         menuToggler.classList.add('bx-menu');
         responsiveMenu.style.display = 'none';
     }
-});
-
-//Botón al taller cientifico (home)
-tallerCientific.addEventListener('click', function () {
-    window.location.href = "/serveis/taller1/taller1.html";
-});
-
-//Botón al taller cientifico (home)
-tallerEmocions.addEventListener('click', function () {
-    window.location.href = "/serveis/taller2/taller2.html";
 });
 
 // Mostrar buscador
@@ -129,3 +112,7 @@ inputBuscador.addEventListener('keyup', function() {
         }
     });
 });
+
+activitatsBtn.addEventListener('click', () => {
+    window.location.href = "/serveis/serveis.html";
+})
