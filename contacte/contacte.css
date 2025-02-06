@@ -585,6 +585,10 @@ body.darkmode{
         display: none;
     }
 
+    .buscador .buscador-real ul#resultados{
+        width: 30%;
+    }
+
     .nav-bar i.bx-menu,
     .nav-bar i.bx-x{
         display: block;
@@ -696,6 +700,11 @@ body.darkmode{
         font-size: 50px;
         font-weight: 500;
     }
+
+    .buscador .buscador-real ul#resultados{
+        width: 60%;
+    }
+
     .form-footer{
         margin-top: 20px;
         overflow-x: hidden;

@@ -801,6 +801,10 @@ body.darkmode{
         display: none;
     }
 
+    .buscador .buscador-real ul#resultados{
+        width: 30%;
+    }
+
     .nav-bar i.bx-menu,
     .nav-bar i.bx-x{
         display: block;
@@ -900,6 +904,10 @@ body.darkmode{
     .expansio{
         width: 300px;
         transform: translatex(5px);
+    }
+
+    .buscador .buscador-real ul#resultados{
+        width: 60%;
     }
 
     /* form footer */

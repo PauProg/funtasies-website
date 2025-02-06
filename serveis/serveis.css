@@ -562,6 +562,10 @@ body.darkmode{
         display: none;
     }
 
+    .buscador .buscador-real ul#resultados{
+        width: 30%;
+    }
+
     .nav-bar i.bx-menu,
     .nav-bar i.bx-x{
         display: block;
@@ -694,6 +698,10 @@ body.darkmode{
     /* first-secction */
     #animado h1{
         font-size: 25px;
+    }
+
+    .buscador .buscador-real ul#resultados{
+        width: 60%;
     }
     
     #animado h4{

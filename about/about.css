@@ -949,6 +949,10 @@ body.darkmode{
         display: none;
     }
 
+    .buscador .buscador-real ul#resultados{
+        width: 30%;
+    }
+
     .nav-bar i.bx-menu,
     .nav-bar i.bx-x{
         display: block;
@@ -1143,6 +1147,10 @@ body.darkmode{
     .filosofia img{
         width: 300px;
         height: 200px;
+    }
+
+    .buscador .buscador-real ul#resultados{
+        width: 60%;
     }
 
     .mision img{

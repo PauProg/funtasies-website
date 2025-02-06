@@ -2,6 +2,7 @@ const bdark = document.getElementById('bdark');
 const bdark2 = document.getElementById('bdark2');
 const body = document.getElementById('body');
 const logoBanner = document.getElementById('logoBanner');
+const lupita2 = document.getElementById('lupita2');
 const menuToggler = document.getElementById('menuToggler');
 const responsiveMenu = document.getElementById('responsive-menu');
 const lupita = document.getElementById('lupita');
@@ -83,6 +84,16 @@ lupita.addEventListener('click', function(){
     body.style.overflow = "hidden";
     buscador.style.display = "block";
     inputBuscador.focus();
+});
+
+// Mostrar buscador responsive
+lupita2.addEventListener('click', function(){
+    body.style.overflow = "hidden";
+    buscador.style.display = "block";
+    inputBuscador.focus();
+    responsiveMenu.style.display = 'none';
+    menuToggler.classList.remove('bx-x');
+    menuToggler.classList.add('bx-menu');
 });
 
 // Cerrar buscador

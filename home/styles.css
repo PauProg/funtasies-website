@@ -786,6 +786,10 @@ body.darkmode{
         display: none;
     }
 
+    .buscador .buscador-real ul#resultados{
+        width: 30%;
+    }
+
     .nav-bar i.bx-menu,
     .nav-bar i.bx-x{
         display: block;
@@ -898,6 +902,10 @@ body.darkmode{
     .bannerprincipaldiv{
         margin-top: 0;
         margin-bottom: 20px;
+    }
+
+    .buscador .buscador-real ul#resultados{
+        width: 60%;
     }
 
     .bannerprincipaldiv h1{

@@ -5,6 +5,7 @@ const logoBanner = document.getElementById('logoBanner');
 const menuToggler = document.getElementById('menuToggler');
 const responsiveMenu = document.getElementById('responsive-menu');
 const lupita = document.getElementById('lupita');
+const lupita2 = document.getElementById('lupita2');
 const buscador = document.getElementById('buscador');
 const closeBuscador = document.getElementById('close-buscador');
 const inputBuscador = buscador.querySelector('input');
@@ -84,6 +85,16 @@ lupita.addEventListener('click', function(){
     body.style.overflow = "hidden";
     buscador.style.display = "block";
     inputBuscador.focus();
+});
+
+// Mostrar buscador responsive
+lupita2.addEventListener('click', function(){
+    body.style.overflow = "hidden";
+    buscador.style.display = "block";
+    inputBuscador.focus();
+    responsiveMenu.style.display = 'none';
+    menuToggler.classList.remove('bx-x');
+    menuToggler.classList.add('bx-menu');
 });
 
 // Cerrar buscador
