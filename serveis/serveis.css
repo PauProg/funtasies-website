@@ -250,6 +250,10 @@ a{
     font-size: 35px;
 }
 
+.layout-flex .second img{
+    object-fit: cover;
+}
+
 /* footer form */
 
 .form-footer{
@@ -705,7 +709,7 @@ body.darkmode{
     }
 
     .layout-flex{
-        width: 380px;
+        width: 350px;
     }
 
     .image-talleres{
