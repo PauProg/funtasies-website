@@ -711,10 +711,108 @@ body.darkmode{
 }
 
 @media(max-width: 1250px){
+    .bannerprincipal{
+        height: 300px;
+        padding: 4% 6%;
+    }
+
+    .bannerprincipal h1.quisom{
+        font-size: 89px;
+    }
+    
+    .filosofia .info{
+        width: 40%;
+    }
+    
+    .filosofia img{
+        width: 400px;
+        height: 550px;
+    }
+
+    .mision .info{
+        width: 40%;
+    }
+
+    .mision img{
+        width: 400px;
+        height: 500px;
+    }
+    
+    .naixement .info{
+        width: 50%;
+    }
+    
+    .naixement .info h2.neixer{
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+
     /* formulari footer */
 
     .form-footer img{
         display: none;
+    }
+}
+
+@media(max-width: 1000px){
+    .bannerprincipal{
+        padding: 3% 5%;
+    }
+
+    .bannerprincipal h1.quisom{
+        font-size: 80px;
+    }
+
+    .filosofia{
+        gap: 50px;
+    }
+
+    .mision{
+        gap: 50px;
+    }
+    
+    .filosofia .info{
+        width: 45%;
+    }
+
+    .mision .info{
+        width: 45%;
+    }
+    
+    .filosofia .info h2.filo{
+        font-size: 50px;
+    }
+
+    .mision .info h2{
+        font-size: 50px;
+    }
+    
+    .filosofia img{
+        width: 350px;
+        height: 500px;
+    }
+
+    .mision img{
+        width: 350px;
+        height: 450px;
+    }
+    
+    .naixement img{
+        width: 280px;
+        height: 390px;
+    }
+    
+    .naixement .info h2.neixer{
+        font-size: 47px;
+    }
+    
+    .naixement .info p{
+        font-size: 17px;
+    }
+
+    .escollirnos h2{
+        font-size: 40px;
     }
 }
 
@@ -740,6 +838,73 @@ body.darkmode{
     .nav-bar ul.menu li i.bx-search-a.menult{
         margin-right: 10px;
     }
+
+    .filosofia{
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .mision{
+        gap: 30px;
+    }
+    
+    .filosofia .info h2.filo{
+        font-size: 40px;
+    }
+
+    .mision .info h2{
+        font-size: 40px;
+    }
+    
+    .filosofia .info p{
+        font-size: 18px;
+    }
+
+    .mision .info p{
+        font-size: 18px;
+    }
+    
+    .filosofia img{
+        width: 300px;
+        height: 400px;
+        margin-top: 0;
+    }
+
+    .mision img{
+        width: 300px;
+        height: 350px;
+    }
+
+    .naixement{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 43px;
+        margin-top: 50px;
+    }
+    
+    .naixement img{
+        width: 280px;
+        height: 390px;
+        object-fit: cover;
+    }
+    
+    .naixement .info{
+        width: 50%;
+    }
+    
+    .naixement .info h2.neixer{
+        font-size: 47px;
+        font-weight: 500;
+    }
+    
+    .naixement .info p{
+        font-size: 17px;
+    }
+    
+    .naixement .info p:last-of-type{
+        margin-top: 10px;
+    }
 }
 
 @media(max-width: 800px){
@@ -750,6 +915,68 @@ body.darkmode{
     .nav-bar i.bx-menu,
     .nav-bar i.bx-x{
         display: block;
+    }
+
+    .bannerprincipal{
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bannerprincipal h1.quisom{
+        font-size: 60px;
+    }
+
+    .filosofia{
+        flex-direction: column;
+    }
+
+    .mision{
+        flex-direction: column;
+    }
+
+    .escollirnos .blocks{
+        margin-top: 30px;
+        margin-bottom: -60px;
+    }
+
+    .filosofia .info{
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .mision .info{
+        width: 80%;
+    }
+
+    .filosofia img{
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+        margin-top: 0;
+    }
+
+    .mision img{
+        width: 500px;
+        height: 300px;
+    }
+
+    .naixement{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 43px;
+        margin-top: 50px;
+    }
+    
+    .naixement img{
+        width: 500px;
+        height: 300px;
+    }
+    
+    .naixement .info{
+        width: 80%;
     }
 
 
@@ -841,7 +1068,69 @@ body.darkmode{
     }
 }
 
+@media(max-width: 700px){
+    .escollirnos h2{
+        font-size: 37px;
+    }
+}
+
 @media(max-width: 500px){
+    .filosofia img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .mision img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .filosofia .info h2.filo{
+        font-size: 30px;
+    }
+
+    .mision .info h2{
+        font-size: 30px;
+    }
+    
+    .filosofia .info p{
+        font-size: 15px;
+    }
+
+    .mision .info p{
+        font-size: 15px;
+    }
+
+    .naixement .info h2.neixer{
+        font-size: 30px;
+    }
+
+    .naixement .info p{
+        font-size: 15px;
+    }
+
+    .naixement .info p:last-of-type{
+        margin-top: 5px;
+    }
+    
+    .naixement img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .escollirnos h2{
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .escollirnos .blocks .block{
+        width: 300px;
+    }
+
+    .escollirnos .blocks .block p{
+        font-size: 19px;
+    }
+
     /* form footer */
 
     .form-footer{

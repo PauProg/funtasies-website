@@ -900,6 +900,11 @@ body.darkmode{
         margin-bottom: 20px;
     }
 
+    .bannerprincipaldiv h1{
+        left: 6%;
+        top: 10%;
+    }
+
     .quisom{
         padding: 0 30px;
         gap: 30px;
