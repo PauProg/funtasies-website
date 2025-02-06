@@ -747,6 +747,37 @@ body.darkmode{
         font-weight: 500;
     }
 
+    /* que oferim */
+
+    .que-oferim{
+        gap: 80px;
+        margin-top: 80px;
+        width: 95%;
+    }
+    
+    .que-oferim h2.principal{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .que-oferim .blocks .block{
+        padding: 30px;
+    }
+    
+    .que-oferim .blocks .block h2{
+        font-size: 38px;
+        margin-bottom: 17px;
+    }
+    
+    .que-oferim .blocks .block p{
+        font-size: 20px;
+    }
+
+    .que-oferim .blocks .block1,
+    .que-oferim .blocks .block2{
+        margin-bottom: 30px;
+    }
+
 
     /* formulari footer */
 
@@ -813,6 +844,12 @@ body.darkmode{
 
     .escollirnos h2{
         font-size: 40px;
+    }
+
+    /* que oferim */
+
+    .que-oferim .blocks .block2{
+        margin-bottom: 0;
     }
 }
 
@@ -1072,6 +1109,34 @@ body.darkmode{
     .escollirnos h2{
         font-size: 37px;
     }
+
+    /* que oferim */
+
+    .que-oferim{
+        gap: 60px;
+        width: 80%;
+    }
+    
+    .que-oferim h2.principal{
+        font-size: 47px;
+        margin-bottom: 15px;
+    }
+    
+    .que-oferim .blocks .block{
+        padding: 25px;
+        min-width: 490px;
+        min-height: 0;
+    }
+    
+    .que-oferim .blocks .block h2{
+        font-size: 34px;
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+    
+    .que-oferim .blocks .block p{
+        font-size: 17px;
+    }
 }
 
 @media(max-width: 500px){
@@ -1130,6 +1195,47 @@ body.darkmode{
     .escollirnos .blocks .block p{
         font-size: 19px;
     }
+
+
+    /* que oferim */
+
+    .que-oferim{
+        gap: 40px;
+        margin-top: 40px;
+    }
+    
+    .que-oferim h2.principal{
+        font-size: 30px;
+    }
+    
+    .que-oferim .blocks{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    
+    .que-oferim .blocks .block{
+        width: 100%;
+        min-width: 0;
+    }
+    
+    .que-oferim .blocks .block h2{
+        font-size: 30px;
+    }
+    
+    .que-oferim .blocks .block p{
+        font-size: 15px;
+    }
+
+    .que-oferim .blocks .block2{
+        margin-bottom: -20px;
+    }
+
+    .que-oferim button{
+        padding: 10px 30px;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
 
     /* form footer */
 
