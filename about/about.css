@@ -1153,6 +1153,11 @@ body.darkmode{
         width: 60%;
     }
 
+    .buscador .buscador-real{
+        justify-content: flex-start;
+        padding: 150px 0 0 0;
+    }
+
     .mision img{
         width: 300px;
         height: 200px;

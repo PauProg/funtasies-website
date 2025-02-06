@@ -910,6 +910,11 @@ body.darkmode{
         width: 60%;
     }
 
+    .buscador .buscador-real{
+        justify-content: flex-start;
+        padding: 150px 0 0 0;
+    }
+
     /* form footer */
     .form-footer{
         margin-top: 50px;

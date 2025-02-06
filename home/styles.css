@@ -802,7 +802,7 @@ body.darkmode{
     .bannerprincipaldiv h1{
         left: 10%;
         top: 15%;
-        background-color: #f4f6fa;
+        background-color: rgba(244, 246, 250, .6);
     }
 
     .darkmode .bannerprincipaldiv h1{
@@ -906,6 +906,11 @@ body.darkmode{
 
     .buscador .buscador-real ul#resultados{
         width: 60%;
+    }
+
+    .buscador .buscador-real{
+        justify-content: flex-start;
+        padding: 150px 0 0 0;
     }
 
     .bannerprincipaldiv h1{

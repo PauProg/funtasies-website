@@ -703,6 +703,11 @@ body.darkmode{
     .buscador .buscador-real ul#resultados{
         width: 60%;
     }
+
+    .buscador .buscador-real{
+        justify-content: flex-start;
+        padding: 150px 0 0 0;
+    }
     
     #animado h4{
         color: #8dc6d4;

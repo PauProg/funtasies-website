@@ -692,21 +692,36 @@ body.darkmode{
 
 @media(max-width: 500px){
     /* form footer */
+
+    .bannerprincipaldiv{
+        margin-top: 40px;
+        object-fit: cover;
+        width: 100%;
+        height: 200px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
     
     .bannerprincipaldiv h1{
         position: absolute;
         text-align: center;
         color: #F4F6FA;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 500;
+        transform: translatey(0px);
     }
 
     .buscador .buscador-real ul#resultados{
         width: 60%;
     }
 
+    .buscador .buscador-real{
+        justify-content: flex-start;
+        padding: 150px 0 0 0;
+    }
+
     .form-footer{
-        margin-top: 20px;
+        margin-top: 0;
         overflow-x: hidden;
     }
 
@@ -715,7 +730,7 @@ body.darkmode{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 60px;
+        padding: 30pxº  q 60px 60px 60px;
         border-radius: 0;
     }
     
