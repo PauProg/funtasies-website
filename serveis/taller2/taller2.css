@@ -689,32 +689,27 @@ body.darkmode{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        padding: 24px;
+        padding: 30px;
     }
 
-    .gallery-items.pre-seccion,
     .gallery-items.primera-seccion,
     .gallery-items.segunda-seccion,
     .gallery-items.tercera-seccion,
-    .gallery-items{
+    .gallery-items.cuarta-seccion,
+    .gallery-items.quinta-seccion{
+        justify-content: center;
+        align-items: center;
         width: 100%;
     }
 
-    .gallery-items.cuarta-seccion{
+    .content1,
+    .content2,
+    .content3,
+    .content4,
+    .content5{
+        max-width: 50%;
         display: flex;
-        align-items: center;
         justify-content: center;
-    }
-
-    .gallery-items.quinta-seccion{
-        display: flex;
-        justify-content: center;
-    }
-
-    .monster{
-        width: 200px;
-        height: auto;
     }
 }
 
@@ -726,7 +721,53 @@ body.darkmode{
     }
 }
 
-@media (max-width:920px){
+@media(max-width: 1000px){
+    /*Imagenes en responsive móvil*/
+    .gallery-container .gallery-items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content1,
+    .content2,
+    .content3,
+    .content4,
+    .content5{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content5{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .interactive-book{
+        width: 120px;
+        height: auto;
+    }
+
+    .miedo{
+        margin-top: 20px;
+        width: 130px;
+        height: auto;
+    }
+
+    .comodo{
+        margin-bottom: 10px;
+    }
+
+    .recordar{
+        width: 100px;
+        height: auto;
+    }
+
+    .monster{
+        width: 150px;
+        height: auto;
+    }
+}
 
 
 @media(max-width: 900px){
@@ -857,6 +898,27 @@ body.darkmode{
 }
 
 @media(max-width: 500px){
+    /*Imagenes en responsive móvil*/
+    .gallery-container .gallery-items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content1,
+    .content2,
+    .content3,
+    .content4,
+    .content5{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content5{
+        display: flex;
+        flex-direction: column;
+    }
+
     /* form footer */
 
     .form-footer{
@@ -915,5 +977,4 @@ body.darkmode{
         font-size: 18px;
         padding: 15px 0;
     }
-}
 }
