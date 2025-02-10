@@ -8,9 +8,12 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #F4F6FA;
     padding-bottom: 30px;
-    overflow-x: hidden;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -756,14 +759,12 @@ body.darkmode{
         width: 400px;
     }
 
-    
 }
 @media (max-width:920px){
     /*Media de finalitat*/
     .display-finalitat{
         display: flex;
         flex-direction: column;
-        gap: px;
         width: 100%;
     }
 
@@ -896,9 +897,28 @@ body.darkmode{
 }
 
 @media(max-width: 500px){
-    /* Image section 6 */
-    .expansio{
+    .paraguas{
+        width: 150px;
+    }
+
+    .newton{
         width: 300px;
+    }
+
+    .volcan{
+        width: 180px;
+    }
+
+    .salcolors{
+        width: 140px;
+    }
+
+    .aguaaceite{
+        width: 80px;
+    }
+
+    .expansio{
+        width: 200px;
         transform: translatex(5px);
     }
 

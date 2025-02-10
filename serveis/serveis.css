@@ -687,6 +687,12 @@ body.darkmode{
 }
 
 @media(max-width: 500px){
+
+    /*navbar*/
+    .nav-bar i{
+        margin-right: 0px;/*Correcion de centrado del icono en movil*/
+    }
+
     /* first-secction */
     #animado h1{
         font-size: 25px;
