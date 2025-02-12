@@ -14,6 +14,17 @@ const closeBuscador = document.getElementById('close-buscador');
 const inputBuscador = buscador.querySelector('input');
 const resultados = document.getElementById('resultados');
 
+//Funciones para abrir y cerrar  el menu
+const abrirMenu = () => {
+    menuToggler.classList.replace('bx-menu', 'bx-x');
+    responsiveMenu.style.display = 'block';
+}
+
+const cerrarMenu = () => {
+    menuToggler.classList.replace('bx-x', 'bx-menu');
+    responsiveMenu.style.display = 'none';
+}
+
 //Distintos talleres, enlaces, y palabras relacionadas
 const talleres = [
     { nombre: "Taller científic", url: "/serveis/taller1/taller1.html", palabras: ["ciencia", "pluja de colors", "fluid no newtonià", "volcà", "sal de colors", "pluja de colors amb oli", "expansió de colors", "cientific"] },
@@ -63,9 +74,7 @@ logoBanner.addEventListener('click', function () {
 //Cerrar el menú responsive al llegar a 800px de width
 window.addEventListener("resize", () => {
     if (window.innerWidth > 800) {
-        responsiveMenu.style.display = 'none';
-        menuToggler.classList.remove('bx-x');
-        menuToggler.classList.add('bx-menu');
+        cerrarMenu();
     }
 });
 
@@ -77,13 +86,9 @@ aboutBtn.addEventListener('click', function () {
 //Abrir y cerrar menú responsive
 menuToggler.addEventListener('click', function () {
     if (menuToggler.classList.contains('bx-menu')) {
-        menuToggler.classList.remove('bx-menu');
-        menuToggler.classList.add('bx-x');
-        responsiveMenu.style.display = 'block';
+        abrirMenu();
     } else {
-        menuToggler.classList.remove('bx-x');
-        menuToggler.classList.add('bx-menu');
-        responsiveMenu.style.display = 'none';
+        cerrarMenu();
     }
 });
 
