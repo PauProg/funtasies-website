@@ -28,7 +28,7 @@ const talleres = [
     { nombre: "Taller científic", url: "/serveis/taller1/taller1.html", palabras: ["ciencia", "pluja de colors", "fluid no newtonià", "volcà", "sal de colors", "pluja de colors amb oli", "expansió de colors", "cientific"] },
     { nombre: "Taller de la tardor", url: "#", palabras: [] },
     { nombre: "Taller de les emocions", url: "/serveis/taller2/taller2.html", palabras: ["taller de les emocions", "lectura", "conte", "por", "expressar", "comoditat", "monstre"] },
-    { nombre: "Taller de Astronomía", url: "#", palabras: [] }
+    { nombre: "Taller de minijocs", url: "/serveis/taller3/taller3.html", palabras: ['taller de minijocs', 'recolectem les espases', 'cami de pedres i lava', 'pintem un drac', 'memory del conte'] }
 ];
 
 // Función para aplicar el tema guardado o predeterminado
