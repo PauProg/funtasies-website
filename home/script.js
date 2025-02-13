@@ -8,6 +8,7 @@ const responsiveMenu = document.getElementById('responsive-menu');
 const tallerCientific = document.getElementById('taller-cientific');
 const tallerEmocions = document.getElementById('taller-emocions');
 const tallerMinijocs = document.getElementById('taller-minijocs');
+const tallerTardor = document.getElementById('taller-tardor');
 const lupita = document.getElementById('lupita');
 const lupita2 = document.getElementById('lupita2');
 const buscador = document.getElementById('buscador');
@@ -98,7 +99,7 @@ tallerCientific.addEventListener('click', function () {
     window.location.href = "/serveis/taller1/taller1.html";
 });
 
-//Botón al taller cientifico (home)
+//Botón al taller emocions (home)
 tallerEmocions.addEventListener('click', function () {
     window.location.href = "/serveis/taller2/taller2.html";
 });
@@ -107,6 +108,11 @@ tallerEmocions.addEventListener('click', function () {
 tallerMinijocs.addEventListener('click', function () {
     window.location.href = "/serveis/taller3/taller3.html";
 });
+
+//Botón al taller de tardor (home)
+tallerTardor.addEventListener('click', function () {
+    window.location.href = "/serveis/taller4/taller4.html";
+})
 
 // Mostrar buscador
 lupita.addEventListener('click', function(){
