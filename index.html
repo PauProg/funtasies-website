@@ -6,7 +6,12 @@
         <title>Funtasies | PauProg & JitaProg</title>
         <link rel="icon" href="/images/favicon.png">
         <link rel="stylesheet" href="/home/styles.css">
+
+        <!-- boxicons -->
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     </head>
     <body id="body">
 
@@ -88,20 +93,27 @@
                     <p class="nom-taller">Taller de minijocs</p>
                     <h3 class="titol-taller">Activitats per fomentar la cohesióde grup</h3>
                     <img src="/images/cup.png" alt="dos libros de color azul" class="imatge-taller">
-                    <i class='bx bx-right-arrow-alt'></i>
+                    <i class='bx bx-right-arrow-alt' id="taller-minijocs"></i>
                 </div>
             </div>
 
             <!-- carrusel -->
 
-            <div class="slider">
-                <ul>
-                    <li><img src="/images/imagen1.jpg" alt="imagen de prueba"></li>
-                    <li><img src="/images/imagen2.jpg" alt="imagen de prueba"></li>
-                    <li><img src="/images/imagen3.jpg" alt="imagen de prueba"></li>
-                    <li><img src="/images/imagen4.jpg" alt="imagen de prueba"></li>
-                </ul>
-            </div>
+            <section class="gallery">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/imagen1.jpg" alt="Relleno 1"></div>
+                        <div class="swiper-slide"><img src="images/imagen2.jpg" alt="Relleno 2"></div>
+                        <div class="swiper-slide"><img src="images/imagen3.jpg" alt="Relleno 3"></div>
+                        <div class="swiper-slide"><img src="images/imagen4.jpg" alt="Relleno 4"></div>
+                    </div>
+                    <!-- Botones de navegación -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Paginación -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
 
             <!-- Formulari footer -->
 
@@ -173,5 +185,8 @@
         </div>
 
         <script src="/home/script.js"></script>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </body>
 </html>

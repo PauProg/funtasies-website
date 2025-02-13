@@ -7,6 +7,7 @@ const menuToggler = document.getElementById('menuToggler');
 const responsiveMenu = document.getElementById('responsive-menu');
 const tallerCientific = document.getElementById('taller-cientific');
 const tallerEmocions = document.getElementById('taller-emocions');
+const tallerMinijocs = document.getElementById('taller-minijocs');
 const lupita = document.getElementById('lupita');
 const lupita2 = document.getElementById('lupita2');
 const buscador = document.getElementById('buscador');
@@ -102,6 +103,11 @@ tallerEmocions.addEventListener('click', function () {
     window.location.href = "/serveis/taller2/taller2.html";
 });
 
+//Botón al taller de minijocs (home)
+tallerMinijocs.addEventListener('click', function () {
+    window.location.href = "/serveis/taller3/taller3.html";
+});
+
 // Mostrar buscador
 lupita.addEventListener('click', function(){
     body.style.overflow = "hidden";
@@ -143,5 +149,36 @@ inputBuscador.addEventListener('keyup', function() {
             li.appendChild(enlace);
             resultados.appendChild(li);
         }
+    });
+});
+
+// gallery
+
+document.addEventListener("DOMContentLoaded", function () {
+    var swiper = new Swiper(".mySwiper", {
+        loop: true, // Para que el carrusel sea infinito
+        autoplay: {
+            delay: 3000, // Cambia cada 3 segundos automáticamente
+            disableOnInteraction: false, // Sigue moviéndose después de interactuar
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true, // Permite hacer clic en los puntos
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        effect: "coverflow", // Da un efecto 3D bonito
+        grabCursor: true, // Cambia el cursor a una mano al pasar por encima
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
     });
 });
