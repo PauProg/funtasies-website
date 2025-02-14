@@ -24,10 +24,14 @@ const cerrarMenu = () => {
 
 //Distintos talleres, enlaces, y palabras relacionadas
 const talleres = [
-    { nombre: "Taller científic", url: "/serveis/taller1/taller1.html", palabras: ["ciencia", "pluja de colors", "fluid no newtonià", "volcà", "sal de colors", "pluja de colors amb oli", "expansió de colors", "cientific"] },
-    { nombre: "Taller de la tardor", url: "#", palabras: [] },
-    { nombre: "Taller de les emocions", url: "/serveis/taller2/taller2.html", palabras: ["taller de les emocions", "lectura", "conte", "por", "expressar", "comoditat", "monstre"] },
-    { nombre: "Taller de minijocs", url: "/serveis/taller3/taller3.html", palabras: ['taller de minijocs', 'recolectem les espases', 'cami de pedres i lava', 'pintem un drac', 'memory del conte'] }
+    { nombre: "Taller científic (CAT)", url: "/serveis/taller1/taller1.html", palabras: ["ciéncia", "pluja de colors", "fluid no newtonià", "volcà", "sal de colors", "pluja de colors amb oli", "expansió de colors", "cientific"] },
+    { nombre: "Taller científico (ES)", url: "/serveis/taller1/ES/taller1ES.html", palabras: ["ciéncia", "lluvia de colores", "fluido no newtoniano", "volcán", "sal de colores", "lluvia de colores con aceite", "expansión de colors", "científico"] },
+    { nombre: "Taller de les estacions (CAT)", url: "/serveis/taller4/taller4.html", palabras: ['taller de les estacions', 'narració del conte', 'tardor', 'primavera', 'estiu', 'hivern'] },
+    { nombre: "Taller de las estaciones (ES)", url: "/serveis/taller4/ES/taller4ES.html", palabras: ['taller de las estaciones', 'narración del cuento', 'otoño', 'primavera', 'verano', 'invierno'] },
+    { nombre: "Taller de les emocions (CAT)", url: "/serveis/taller2/taller2.html", palabras: ["taller de les emocions", "lectura", "conte", "por", "expressar", "comoditat", "monstre"] },
+    { nombre: "Taller de las emociones (ES)", url: "/serveis/taller2/ES/taller2ES.html", palabras: ["taller de las emociones", "lectura", "cuento", "miedo", "expresar", "comodidad", "monstruo"] },
+    { nombre: "Taller de minijocs (CAT)", url: "/serveis/taller3/taller3.html", palabras: ['taller de minijocs', 'recolectem les espases', 'camí de pedres i lava', 'pintem un drac', 'memory del conte'] },
+    { nombre: "Taller de minijuegos (ES)", url: "/serveis/taller3/ES/taller3ES.html", palabras: ['taller de minijuegos', 'recolectamos las espadas', 'camino de piedras y lava', 'pintamos un dragón', 'memory del cuento'] }
 ];
 
 // Función para aplicar el tema guardado o predeterminado
