@@ -30,7 +30,7 @@ const cerrarMenu = () => {
 //Distintos talleres, enlaces, y palabras relacionadas
 const talleres = [
     { nombre: "Taller científic (CAT)", url: "/serveis/taller1/taller1.html", palabras: ["ciéncia", "pluja de colors", "fluid no newtonià", "volcà", "sal de colors", "pluja de colors amb oli", "expansió de colors", "cientific"] },
-    { nombre: "Taller científico (ES)", url: "/serveis/taller1/ES/taller1ES.html", palabras: ["ciéncia", "lluvia de colores", "fluido no newtoniano", "volcán", "sal de colores", "lluvia de colores con aceite", "expansión de colors", "científico"] },
+    { nombre: "Taller científico (ES)", url: "/serveis/taller1/ES/taller1ES.html", palabras: ["ciéncia", "lluvia de colores", "fluido no newtoniano", "volcán", "sal de colores", "lluvia de colores con aceite", "expansión de colores", "científico"] },
     { nombre: "Taller de les estacions (CAT)", url: "/serveis/taller4/taller4.html", palabras: ['taller de les estacions', 'narració del conte', 'tardor', 'primavera', 'estiu', 'hivern'] },
     { nombre: "Taller de las estaciones (ES)", url: "/serveis/taller4/ES/taller4ES.html", palabras: ['taller de las estaciones', 'narración del cuento', 'otoño', 'primavera', 'verano', 'invierno'] },
     { nombre: "Taller de les emocions (CAT)", url: "/serveis/taller2/taller2.html", palabras: ["taller de les emocions", "lectura", "conte", "por", "expressar", "comoditat", "monstre"] },
