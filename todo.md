@@ -6,3 +6,4 @@
 [] Implementar cambio de idioma una vez finalizada la web
 [] ¡¡OPCIONAL!! Añadir desplegable para los servicios
 [] Cambiar de "preguntans" a "preguntan's" en contacto footer
+[] Hacer que se pueda ir de servicio en servicio
