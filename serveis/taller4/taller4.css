@@ -672,6 +672,10 @@ body.darkmode{
         width: 120px;
         height: auto;
     }
+    .gallery-items.segunda-seccion{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
