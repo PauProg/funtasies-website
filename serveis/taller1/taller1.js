@@ -2,8 +2,6 @@ const bdark = document.getElementById('bdark');
 const bdark2 = document.getElementById('bdark2');
 const body = document.getElementById('body');
 const lupita2 = document.getElementById('lupita2');
-const logoBanner = document.getElementById('logoBanner');
-const logoBannerES = document.getElementById('logoBannerES');
 const menuToggler = document.getElementById('menuToggler');
 const responsiveMenu = document.getElementById('responsive-menu');
 const lupita = document.getElementById('lupita');
@@ -67,15 +65,6 @@ function cambiarTema() {
 //Eventos para los botones que cambian los botones
 bdark.addEventListener('click', cambiarTema);
 bdark2.addEventListener('click', cambiarTema);
-
-//El logo de la nav que lleva a la home
-logoBanner.addEventListener('click', function () {
-    window.location.href = "/index.html";
-});
-
-logoBannerES.addEventListener('click', function () {
-    window.location.href = "/home/ES/indexES.html";
-});
 
 //Cerrar el menú responsive al llegar a 800px de width
 window.addEventListener("resize", () => {
