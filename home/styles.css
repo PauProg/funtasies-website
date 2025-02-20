@@ -335,10 +335,31 @@ img.bannerinicial{
     aspect-ratio: 1/1;
 }
 
+/* .taller i{
+    color: #9C5434;
+    font-size: 50px;
+    padding: 15px;
+    background-color: #B3C1DD;
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: -30px;
+    transition: all ease .55s;
+} */
+
 .taller i{
     color: #9C5434;
     font-size: 50px;
     padding: 15px;
+    background-color: #B3C1DD;
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: -30px;
+    transition: all ease .55s;
+}
+
+.taller a{
+    color: #9C5434;
+    font-size: 50px;
     background-color: #B3C1DD;
     border-radius: 50%;
     align-self: center;
