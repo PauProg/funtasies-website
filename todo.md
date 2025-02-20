@@ -1,3 +1,3 @@
 # ToDo
 
-[] El arbol del nav lleva a catalan siempre
+[x] El arbol del nav lleva a catalan siempre
