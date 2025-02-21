@@ -1,3 +1,4 @@
+// declaracion de variables
 const bdark = document.getElementById('bdark');
 const bdark2 = document.getElementById('bdark2');
 const body = document.getElementById('body');

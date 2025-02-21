@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
+
+        <!-- metadatos -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="/images/favicon.png">
@@ -29,6 +31,7 @@
     </head>
     <body id="body">
 
+        <!-- buscador -->
         <div class="buscador" id="buscador">
             <i class="bx bx-x" id="close-buscador"></i>
             <div class="buscador-real">
@@ -43,6 +46,7 @@
 
         <div class="container">
 
+            <!-- nav -->
             <div class="nav-bar">
                 <ul class="menu">
                     <li><i class='bx bx-search-alt' id="lupita"></i></li>
@@ -65,126 +69,116 @@
                     <li><i class='bx bxs-moon' id="bdark2"></i></li>
                 </ul>
             </div>
-    
-        <div class="first">
-            <div class="first-section">
-                <div id="animado">
-                    <h4>¿Qué ofrecemos?</h4>
-                    <h1>Descubre nuestros talleres para ayudar a los niños a experimentar todo tipo de experiencias</h1>
+
+            <!-- secciones -->
+            <div class="first">
+                <div class="first-section">
+                    <div id="animado">
+                        <h4>¿Qué ofrecemos?</h4>
+                        <h1>Descubre nuestros talleres para ayudar a los niños a experimentar todo tipo de experiencias</h1>
+                    </div>
+                </div>
+
+                <div class="second-section">
+                    <div class="layout-flex">
+                        <div class="second">
+                            <img class="image-talleres" src="/images/taller_cientific.png" alt="">
+                            <h2>Taller científico</h2>
+                            <p>Actividades dinámicas y divertidas para experimentar las diferentes texturas, densistados, líquidos y reacciones de mezclas muy coloridas.</p>
+                            <a href="/serveis/taller1/ES/taller1ES.html"><i class='bx bxs-right-arrow-circle' style='color:#b3c1dd'></i></a>
+                        </div>
+
+                        <div class="second">
+                            <img class="image-talleres" src="/images/taller_tardor.png" alt="">
+                            <h2>Taller de las estaciones</h2>
+                            <p>Aprendemos sobre las estaciones explorando la naturaleza y disfrutando de juegos muy divertidos que nos enseñan muchas cosas en cada momento del año.</p>
+                            <a href="/serveis/taller4/ES/taller4ES.html"><i class='bx bxs-right-arrow-circle' style='color:#b3c1dd'></i></a>
+                        </div>
+                    </div>
+                    <div class="layout-flex">
+                        <div class="second">
+                            <img class="image-talleres" src="/images/taller_emocions.png" alt="">
+                            <h2>Taller de las emociones</h2>
+                            <p>Trabajamos y aprendemos cómo gestionar y entender nuestras emociones con el libro “el monstruo de los colores” y realizando divertidas actividades.</p>
+                            <a href="/serveis/taller2/ES/taller2ES.html"><i class='bx bxs-right-arrow-circle' style='color:#b3c1dd'></i></a>
+                        </div>
+
+                        <div class="second">
+                            <img class="image-talleres" src="/images/taller_minijocs.png" alt="">
+                            <h2>Taller de minijuegos</h2>
+                            <p>Jugamos todos juntos a unos mini juegos muy divertidos y educativos y fomentar la cohesión de grupo y el compañerismo.</p>
+                            <a href="/serveis/taller3/ES/taller3ES.html"><i class='bx bxs-right-arrow-circle' style='color:#b3c1dd'></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="second-section">
-
-                <div class="layout-flex">
-
-                    <div class="second">
-                        <img class="image-talleres" src="/images/taller_cientific.png" alt="">
-                        <h2>Taller científico</h2>
-                        <p>Actividades dinámicas y divertidas para experimentar las diferentes texturas, densistados, líquidos y reacciones de mezclas muy coloridas.</p>
-                        <a href="/serveis/taller1/ES/taller1ES.html"><i class='bx bxs-right-arrow-circle' style='color:#b3c1dd'></i></a>
+            <!-- Formulari footer -->
+            <div class="form-footer">
+                <div class="footer-form">
+                    <div class="form">
+                        <h2 class="t1">¿Tienes cualquier duda?</h2>
+                        <h2 class="t2">¡Preguntanos!</h2>
+                        <form action="https://formspree.io/f/xgvovvnb" method="POST">
+                            <label>
+                                <input type="text" class="name" placeholder="Nombre" name="Nom" required>
+                                <input type="text" class="surname" placeholder="Apellido" name="Cognom" required>
+                            </label>
+                            <label>
+                                <input class="email" type="email" name="Correu" placeholder="Correo electrónico" required>
+                            </label>
+                            <label>
+                                <textarea name="Missatge" rows="4" placeholder="Mensaje" required></textarea>
+                            </label>
+                            <button type="submit">Enviar</button>
+                        </form>
                     </div>
-
-                    <div class="second">
-                        <img class="image-talleres" src="/images/taller_tardor.png" alt="">
-                        <h2>Taller de las estaciones</h2>
-                        <p>Aprendemos sobre las estaciones explorando la naturaleza y disfrutando de juegos muy divertidos que nos enseñan muchas cosas en cada momento del año.</p>
-                        <a href="/serveis/taller4/ES/taller4ES.html"><i class='bx bxs-right-arrow-circle' style='color:#b3c1dd'></i></a>
-                    </div>
-
+                    <img src="/images/contact-form-img.png" alt="muñeco apoyado en un movil">
                 </div>
-
-                <div class="layout-flex">
-
-                    <div class="second">
-                        <img class="image-talleres" src="/images/taller_emocions.png" alt="">
-                        <h2>Taller de las emociones</h2>
-                        <p>Trabajamos y aprendemos cómo gestionar y entender nuestras emociones con el libro “el monstruo de los colores” y realizando divertidas actividades.</p>
-                        <a href="/serveis/taller2/ES/taller2ES.html"><i class='bx bxs-right-arrow-circle' style='color:#b3c1dd'></i></a>
-                    </div>
-
-                    <div class="second">
-                        <img class="image-talleres" src="/images/taller_minijocs.png" alt="">
-                        <h2>Taller de minijuegos</h2>
-                        <p>Jugamos todos juntos a unos mini juegos muy divertidos y educativos y fomentar la cohesión de grupo y el compañerismo.</p>
-                        <a href="/serveis/taller3/ES/taller3ES.html"><i class='bx bxs-right-arrow-circle' style='color:#b3c1dd'></i></a>
-                    </div>
-
-                </div>
-
             </div>
 
-        </div>
-
-        <!-- Formulari footer -->
-
-        <div class="form-footer">
-            <div class="footer-form">
-                <div class="form">
-                    <h2 class="t1">¿Tienes cualquier duda?</h2>
-                    <h2 class="t2">¡Preguntanos!</h2>
-                    <form action="https://formspree.io/f/xgvovvnb" method="POST">
-                        <label>
-                            <input type="text" class="name" placeholder="Nombre" name="Nom" required>
-                            <input type="text" class="surname" placeholder="Apellido" name="Cognom" required>
-                        </label>
-                        <label>
-                            <input class="email" type="email" name="Correu" placeholder="Correo electrónico" required>
-                        </label>
-                        <label>
-                            <textarea name="Missatge" rows="4" placeholder="Mensaje" required></textarea>
-                        </label>
-                        <button type="submit">Enviar</button>
-                    </form>
-                </div>
-                <img src="/images/contact-form-img.png" alt="muñeco apoyado en un movil">
-            </div>
-        </div>
-
-        <!-- footer -->
-        <footer>
-
-            <div class="datos">
-                <div class="section1 section">
-                    <div class="head">
-                        <img src="/images/logo.png" alt="un arbol muy colorido">
-                        <h2>Funtasies</h2>
+            <!-- footer -->
+            <footer>
+                <div class="datos">
+                    <div class="section1 section">
+                        <div class="head">
+                            <img src="/images/logo.png" alt="un arbol muy colorido">
+                            <h2>Funtasies</h2>
+                        </div>
+                        <p>Somos una cooperativa dedicada a ofrecer talleres creativos y dinámicos para niños y familias. Descubre un espacio en el que el aprendizaje se transforma en una aventura llena de sonrisas, fantasía y momentos inolvidables. ¡Juntos, hacemos que educar sea mágico!</p>
                     </div>
-                    <p>Somos una cooperativa dedicada a ofrecer talleres creativos y dinámicos para niños y familias. Descubre un espacio en el que el aprendizaje se transforma en una aventura llena de sonrisas, fantasía y momentos inolvidables. ¡Juntos, hacemos que educar sea mágico!</p>
+                    <div class="section2 section">
+                        <h3>Dirección</h3>
+                        <ul>
+                            <li>Carrer de Caldes, 11</li>
+                            <li>Sabadell, 08207</li>
+                            <li>Espanya</li>
+                        </ul>
+                    </div>
+                    <div class="section3 section">
+                        <h3>Contacto</h3>
+                        <ul>
+                            <li><i class='bx bx-envelope'></i><a href="mailto:contacte@funtasies.com" target="_blank">contacte@funtasies.com</a></li>
+                            <li><i class='bx bx-phone-call'></i><a href="tel:622848871" target="_blank">622848871</a></li>
+                            <li><i class='bx bxl-instagram'></i><a href="https://www.instagram.com/coopfuntasies" target="_blank">@coopfuntasies</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="section2 section">
-                    <h3>Dirección</h3>
+
+                <div class="rrss">
                     <ul>
-                        <li>Carrer de Caldes, 11</li>
-                        <li>Sabadell, 08207</li>
-                        <li>Espanya</li>
+                        <li><a href="https://www.instagram.com/coopfuntasies" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="https://wa.me/622848871" target="_blank"><i class='bx bxl-whatsapp'></i></a></li>
+                        <li><a href="https://github.com/PauProg" target="_blank"><i class='bx bxl-github'></i></a></li>
+                        <li><a href="https://github.com/JitaProg" target="_blank"><i class='bx bxl-github'></i></a></li>
                     </ul>
                 </div>
-                <div class="section3 section">
-                    <h3>Contacto</h3>
-                    <ul>
-                        <li><i class='bx bx-envelope'></i><a href="mailto:contacte@funtasies.com" target="_blank">contacte@funtasies.com</a></li>
-                        <li><i class='bx bx-phone-call'></i><a href="tel:622848871" target="_blank">622848871</a></li>
-                        <li><i class='bx bxl-instagram'></i><a href="https://www.instagram.com/coopfuntasies" target="_blank">@coopfuntasies</a></li>
-                    </ul>
-                </div>
-            </div>
 
-            <div class="rrss">
-                <ul>
-                    <li><a href="https://www.instagram.com/coopfuntasies" target="_blank"><i class='bx bxl-instagram'></i></a></li>
-                    <li><a href="https://wa.me/622848871" target="_blank"><i class='bx bxl-whatsapp'></i></a></li>
-                    <li><a href="https://github.com/PauProg" target="_blank"><i class='bx bxl-github'></i></a></li>
-                    <li><a href="https://github.com/JitaProg" target="_blank"><i class='bx bxl-github'></i></a></li>
-                </ul>
-            </div>
+                <p class="copyright">2024 PauProg & JitaProg©</p>
+            </footer>
+        </div>
 
-            <p class="copyright">2024 PauProg & JitaProg©</p>
-
-        </footer>
-
-    </div>
-
-    <script src="/serveis/serveis.js"></script>
-</body>
+        <!-- javascript -->
+        <script src="/serveis/serveis.js"></script>
+    </body>
 </html>

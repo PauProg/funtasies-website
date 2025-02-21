@@ -1,4 +1,9 @@
+/* google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* general */
 
 *{
     margin: 0;
@@ -21,6 +26,8 @@ a{
     text-decoration: none;
 }
 
+
+/* buscador */
 
 .buscador{
     display: none;
@@ -193,6 +200,9 @@ a{
     color: #000000;
 }
 
+
+/* header */
+
 .encabezado{
     display: flex;
     flex-direction: column;
@@ -208,7 +218,9 @@ a{
     max-width: 1200px;
 }
 
+
 /* Seccion Grid */
+
 .massrony-layoud{
     margin: 0 auto;
 }
@@ -230,7 +242,7 @@ a{
 }
 
 
-/*PRE-seccion*/
+/*Pre-seccion*/
 
 .gallery-items.pre-seccion{
     background-color: #b3c1dd;
@@ -249,6 +261,7 @@ a{
     margin-top: 20px;
     font-size: 35px;
 }
+
 
 /* Primer juego*/
 
@@ -282,6 +295,7 @@ a{
     width: 300px;
 }
 
+
 /* Segundo juego */
 
 .gallery-items.segunda-seccion{
@@ -307,6 +321,7 @@ a{
     margin-top: 20px;
     width: 200px;
 }
+
 
 /* Tercer juego */
 
@@ -364,6 +379,7 @@ a{
     margin-top: 20px;
     width: 200px;
 }
+
 
 /* footer form */
 
@@ -635,8 +651,6 @@ body.darkmode{
 /* Media Queries */
 
 @media(max-width: 1600px){
-    /* footer */
-
     footer{
         padding: 100px 90px 0 0;
     }
@@ -644,8 +658,6 @@ body.darkmode{
 
 
 @media(max-width: 1500px){
-    /* footer */
-
     footer{
         padding: 100px 90px 0 0;
     }
@@ -682,8 +694,6 @@ body.darkmode{
 }
 
 @media(max-width: 1250px){
-    /* formulari footer */
-
     .form-footer img{
         display: none;
     }
@@ -748,8 +758,6 @@ body.darkmode{
     }
 
 
-    /* formulari footer */
-    
     .form-footer .footer-form{
         padding: 30px;
         justify-content: center;
@@ -789,8 +797,6 @@ body.darkmode{
         padding: 15px 0;
     }
 
-
-    /* footer */
 
     footer{
         padding: 60px 30px 0 30px;
@@ -851,7 +857,6 @@ body.darkmode{
         margin-top: 0;
     }
 
-    /*Imagenes en responsive móvil*/
     .presentacion{
         margin-top: 20px;
         width: 250px;
@@ -883,7 +888,6 @@ body.darkmode{
         flex-direction: column;
     }
 
-    /* form footer */
     .form-footer{
         margin-top: 50px;
         overflow-x: hidden;

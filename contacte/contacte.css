@@ -1,4 +1,9 @@
+/* google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* general */
 
 *{
     margin: 0;
@@ -17,6 +22,9 @@ body{
 a{
     text-decoration: none;
 }
+
+
+/* buscador */
 
 .buscador{
     display: none;
@@ -189,6 +197,9 @@ a{
     color: #000000;
 }
 
+
+/* header */
+
 .bannerprincipaldiv{
     margin-top: 70px;
     display: flex;
@@ -207,6 +218,7 @@ a{
     font-size: 50px;
     font-weight: 500;
 }
+
 
 /* footer form */
 
@@ -337,13 +349,16 @@ a{
     font-size: 30px;
 }
 
-/* UBICATION GOOGLE MAPS*/
+
+/* mapa */
+
 .location{
     width: 100%;
 }
 .location iframe{
     width: 100%;
 }
+
 
 /* footer */
 
@@ -442,7 +457,7 @@ footer .rrss ul li a i{
 }
 
 
-/*DARK MODE*/
+/* darkmode */
 
 body.darkmode{
     background-color: #121212;
@@ -530,24 +545,20 @@ body.darkmode{
     color: #afafaf;
 }
 
+
 /* responsive */
 
 @media(max-width: 1600px){
-    /* footer */
-
     footer{
         padding: 100px 90px 0 0;
     }
 }
 
 @media (max-width:1075px){
-    
-    /*MEDIA FORM*/
     .form-footer .footer-form{
         display: grid;
     }
 
-    /*MEDIA INFORMATION*/
     .form-footer .footer-form .information{
         display: flex;
         align-items: center;
@@ -594,7 +605,6 @@ body.darkmode{
         display: block;
     }
 
-    /* banner */
     .bannerprincipaldiv h1{
         position: absolute;
         text-align: center;
@@ -603,32 +613,30 @@ body.darkmode{
         font-weight: 500;
     }
 
-    /* formulari footer */
-    
     .form-footer .footer-form{
         padding: 30px;
         justify-content: center;
     }
-    
+
     .form-footer .footer-form h2.t1{
         font-size: 30px;
     }
-    
+
     .form-footer .footer-form h2.t2{
         font-size: 26px;
         margin-bottom: 20px;
     }
-    
+
     .form-footer .footer-form form{
         margin-right: 0;
     }
-    
+
     .form-footer .footer-form form label input,
     .form-footer .footer-form form label textarea{
         font-size: 16px;
         padding: 15px 18px;
     }
-    
+
     .form-footer .footer-form form label input.name{
         margin-right: 0;
         margin-bottom: 20px;
@@ -643,8 +651,6 @@ body.darkmode{
         font-size: 18px;
         padding: 15px 0;
     }
-
-    /* footer */
 
     footer{
         padding: 60px 30px 0 30px;
@@ -691,8 +697,6 @@ body.darkmode{
 }
 
 @media(max-width: 500px){
-    /* form footer */
-
     .bannerprincipaldiv{
         margin-top: 40px;
         object-fit: cover;

@@ -1,4 +1,9 @@
+/* google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* general */
 
 *{
     margin: 0;
@@ -17,6 +22,9 @@ body{
 a{
     text-decoration: none;
 }
+
+
+/* buscador */
 
 .buscador{
     display: none;
@@ -189,7 +197,9 @@ a{
     color: #000000;
 }
 
+
 /*Contenedor principal*/
+
 .first{
     display: flex;
     width: 100%;
@@ -219,7 +229,9 @@ a{
     font-size: 18px;
 }
 
+
 /*Layout flex*/
+
 .second-section{
     display: flex;
     gap: 30px;
@@ -253,6 +265,7 @@ a{
 .layout-flex .second img{
     object-fit: cover;
 }
+
 
 /* footer form */
 
@@ -504,8 +517,6 @@ body.darkmode{
 /* responsive */
 
 @media(max-width: 1600px){
-    /* footer */
-
     footer{
         padding: 100px 90px 0 0;
     }
@@ -570,9 +581,6 @@ body.darkmode{
     .nav-bar i.bx-x{
         display: block;
     }
-
-
-    /* formulari footer */
     
     .form-footer .footer-form{
         padding: 30px;
@@ -612,9 +620,6 @@ body.darkmode{
         font-size: 18px;
         padding: 15px 0;
     }
-
-
-    /* footer */
 
     footer{
         padding: 60px 30px 0 30px;
@@ -695,13 +700,10 @@ body.darkmode{
 }
 
 @media(max-width: 500px){
-
-    /*navbar*/
     .nav-bar i{
-        margin-right: 0px;/*Correcion de centrado del icono en movil*/
+        margin-right: 0px;
     }
 
-    /* first-secction */
     #animado h1{
         font-size: 25px;
     }
@@ -735,7 +737,6 @@ body.darkmode{
         height: 250px;
     }
 
-    /* form footer */
     .form-footer{
         margin-top: 20px;
         overflow-x: hidden;

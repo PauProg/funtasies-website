@@ -1,4 +1,9 @@
+/* google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* general */
 
 *{
     margin: 0;
@@ -17,6 +22,9 @@ body{
 a{
     text-decoration: none;
 }
+
+
+/* buscador */
 
 .buscador{
     display: none;
@@ -703,8 +711,6 @@ body.darkmode{
 /* responsive */
 
 @media(max-width: 1600px){
-    /* footer */
-
     footer{
         padding: 100px 90px 0 0;
     }
@@ -747,8 +753,6 @@ body.darkmode{
         font-weight: 500;
     }
 
-    /* que oferim */
-
     .que-oferim{
         gap: 80px;
         margin-top: 80px;
@@ -777,9 +781,6 @@ body.darkmode{
     .que-oferim .blocks .block2{
         margin-bottom: 30px;
     }
-
-
-    /* formulari footer */
 
     .form-footer img{
         display: none;
@@ -846,8 +847,6 @@ body.darkmode{
         font-size: 40px;
     }
 
-    /* que oferim */
-
     .que-oferim .blocks .block2{
         margin-bottom: 0;
     }
@@ -884,7 +883,7 @@ body.darkmode{
     .mision{
         gap: 30px;
     }
-    
+
     .filosofia .info h2.filo{
         font-size: 40px;
     }
@@ -892,7 +891,7 @@ body.darkmode{
     .mision .info h2{
         font-size: 40px;
     }
-    
+
     .filosofia .info p{
         font-size: 18px;
     }
@@ -900,7 +899,7 @@ body.darkmode{
     .mision .info p{
         font-size: 18px;
     }
-    
+
     .filosofia img{
         width: 300px;
         height: 400px;
@@ -919,26 +918,26 @@ body.darkmode{
         gap: 43px;
         margin-top: 50px;
     }
-    
+
     .naixement img{
         width: 280px;
         height: 390px;
         object-fit: cover;
     }
-    
+
     .naixement .info{
         width: 50%;
     }
-    
+
     .naixement .info h2.neixer{
         font-size: 47px;
         font-weight: 500;
     }
-    
+
     .naixement .info p{
         font-size: 17px;
     }
-    
+
     .naixement .info p:last-of-type{
         margin-top: 10px;
     }
@@ -1010,18 +1009,15 @@ body.darkmode{
         gap: 43px;
         margin-top: 50px;
     }
-    
+
     .naixement img{
         width: 500px;
         height: 300px;
     }
-    
+
     .naixement .info{
         width: 80%;
     }
-
-
-    /* formulari footer */
     
     .form-footer .footer-form{
         padding: 30px;
@@ -1061,9 +1057,6 @@ body.darkmode{
         font-size: 18px;
         padding: 15px 0;
     }
-
-
-    /* footer */
 
     footer{
         padding: 60px 30px 0 30px;
@@ -1113,8 +1106,6 @@ body.darkmode{
     .escollirnos h2{
         font-size: 37px;
     }
-
-    /* que oferim */
 
     .que-oferim{
         gap: 60px;
@@ -1209,9 +1200,6 @@ body.darkmode{
         font-size: 19px;
     }
 
-
-    /* que oferim */
-
     .que-oferim{
         gap: 40px;
         margin-top: 40px;
@@ -1248,9 +1236,6 @@ body.darkmode{
         font-size: 18px;
         margin-bottom: 50px;
     }
-
-
-    /* form footer */
 
     .form-footer{
         margin-top: 20px;
