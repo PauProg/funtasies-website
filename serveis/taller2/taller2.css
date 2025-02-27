@@ -409,7 +409,99 @@ a{
     height: 300px;
 
 }
+/* Talleres */
 
+.talleres{
+    display: flex;
+    padding: 120px 80px 135px 80px;
+    gap: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.taller{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 25px 0 25px;
+    border-radius: 20px;
+    width: 311.59px;
+    max-height: 455px;
+    min-height: 385px;
+}
+
+.taller p.nom-taller{
+    font-size: 16px;
+    color: #fafafa;
+}
+
+.taller h3.titol-taller{
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.taller h3.es{
+    margin-bottom: 30px;
+}
+
+.taller1 img.imatge-taller,
+.taller2 img.imatge-taller,
+.taller3 img.imatge-taller{
+    width: 150px;
+    align-self: flex-end;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    aspect-ratio: 1/1;
+}
+
+.taller4 img.imatge-taller{
+    width: 150px;
+    height: 150px;
+    align-self: flex-end;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    aspect-ratio: 1/1;
+}
+
+.taller i{
+    color: #9C5434;
+    font-size: 50px;
+    padding: 15px;
+    background-color: #B3C1DD;
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: -30px;
+    transition: all ease .55s;
+}
+
+.taller a{
+    color: #9C5434;
+    font-size: 50px;
+    background-color: #B3C1DD;
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: -30px;
+    transition: all ease .55s;
+}
+
+.taller i:hover{
+    background-color: #9cabc7;
+}
+
+.taller1{
+    background-color: #5FB1C2;
+}
+
+.taller2{
+    background-color: #48B988;
+}
+
+.taller3{
+    background-color: #F38971;
+}
+
+.taller4{
+    background-color: #D9B25F;
+}
 
 /* footer form */
 
