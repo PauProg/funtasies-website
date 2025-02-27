@@ -406,9 +406,16 @@ a{
 
 /* Talleres */
 
+.higher h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 40px 0;
+}
+
 .talleres{
     display: flex;
-    padding: 120px 80px 135px 80px;
+    padding: 0 80px 135px 80px;
     gap: 35px;
     flex-wrap: wrap;
     justify-content: center;
