@@ -780,6 +780,10 @@ body.darkmode{
     color: #8dc6d4;
 }
 
+.darkmode .higher h1{
+    color: #fafafa;
+}
+
 .darkmode .form-footer .footer-form{
     background-color: #2C3E50;
 }
@@ -1015,6 +1019,22 @@ body.darkmode{
 }
 
 @media(max-width: 500px){
+    .higher h1{
+        display: flex;
+        text-align: center;
+        padding: 70px 20px 30px 20px;
+    }
+
+    .taller{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 25px 0 25px;
+    border-radius: 20px;
+    width: auto;
+    max-height: 455px;
+    min-height: 385px;
+    }
+
     .paraguas{
         width: 150px;
     }

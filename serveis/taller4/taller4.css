@@ -708,6 +708,10 @@ body.darkmode{
     color: #8dc6d4;
 }
 
+.darkmode .higher h1{
+    color: #fafafa;
+}
+
 .darkmode .form-footer .footer-form{
     background-color: #2C3E50;
 }
@@ -943,6 +947,15 @@ body.darkmode{
 }
 
 @media(max-width: 500px){
+    .gallery-items.pre-seccion{
+        height: 500px;
+    }
+
+    .gallery-items.pre-seccion h3{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 35px;
+    }
 
     .gallery-items.primera-seccion,
     .gallery-items.segunda-seccion,
@@ -988,6 +1001,22 @@ body.darkmode{
         flex-direction: column;
     }
 
+    .higher h1{
+        display: flex;
+        text-align: center;
+        padding: 70px 20px 30px 20px;
+    }
+
+    .taller{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 25px 0 25px;
+    border-radius: 20px;
+    width: auto;
+    max-height: 455px;
+    min-height: 385px;
+    }
+    
     .form-footer{
         margin-top: 50px;
         overflow-x: hidden;
