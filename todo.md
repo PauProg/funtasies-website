@@ -1,2 +1,2 @@
 # Things to do
-[] Añadir sección "otros talleres" en cada taller
+[x] Añadir sección "otros talleres" en cada taller
