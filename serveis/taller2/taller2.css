@@ -139,6 +139,10 @@ a{
     transform: scale(1.1);
 }
 
+.nav-bar ul.menu li.arbol:hover{
+    transform: scale(1);
+}
+
 .nav-bar ul.menu li a{
     text-decoration: none;
     color: #000000;
