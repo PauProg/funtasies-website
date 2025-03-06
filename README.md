@@ -1,6 +1,6 @@
 # Funtasies Website
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Ffuntasies-website.vercel.app)](https://funtasies-website.vercel.app)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Ffuntasies-website.vercel.app)](https://www.funtasies.fun/)
 
 ## Descripción
 
